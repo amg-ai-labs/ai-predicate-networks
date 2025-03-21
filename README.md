@@ -13,7 +13,7 @@ This is a Dash-based interactive dashboard that visualizes predicate networks of
 ## Deployment
 
 The dashboard is deployed on PythonAnywhere and is publicly accessible.  
-Visit [KXerxes on PythonAnywhere](https://www.pythonanywhere.com/user/KXerxes/) to have a play and explore the dashboard in action.
+Visit this [link](https://kxerxes.pythonanywhere.com) to have a play and explore the dashboard in action.
 
 ## File Structure
 
