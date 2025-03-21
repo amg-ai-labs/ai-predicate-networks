@@ -42,13 +42,3 @@ ai-predicate-network/
 ├── README.md               # Project documentation
 ├── predicate_data_main.xlsx  # Excel data file (not included in repo)
 ```
-
-## Deployment
-
-This app can be deployed to PythonAnywhere, Heroku, Render, or any service that supports Dash.
-
-## Author
-
-Developed by Ahmad Guni — Surgical Registrar & Clinical AI Researcher.
-
-Live demo: [https://kxerxes.pythonanywhere.com](https://kxerxes.pythonanywhere.com)
