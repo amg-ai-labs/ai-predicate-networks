@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.env
+.venv/
+venv/
+ENV/
+
+# IDE directories and settings
+.vscode/
+.idea/
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Log and cache files
+*.log
+.cache/
+
+# Database files (if any)
+*.sqlite3
+*.db
+
+# Excel data file (kept local, not in repo)
+predicate_data_main.xlsx
