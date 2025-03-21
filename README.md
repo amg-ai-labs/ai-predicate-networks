@@ -9,7 +9,11 @@ This is a Dash-based interactive dashboard that visualizes predicate networks of
 - Adjust time range with an approval year slider
 - Search and highlight specific submission numbers
 - View device details in a side panel with links to summaries (if available)
+  
+## Deployment
 
+The dashboard is deployed on PythonAnywhere and is publicly accessible.  
+Visit [KXerxes on PythonAnywhere](https://www.pythonanywhere.com/user/KXerxes/) to have a play and explore the dashboard in action.
 
 ## File Structure
 
@@ -24,3 +28,21 @@ ai-predicate-network/
 ├── README.md               # Project documentation
 ├── predicate_data_main.xlsx  # Excel data file (not included in repo)
 ```
+
+## Usage
+
+1. **Install dependencies:**  
+   Run the following command in your terminal to install required packages:
+   ```bash
+   pip install -r requirements.txt
+    ```
+
+2. **Prepare the data:**
+  Make sure your Excel data file predicate_data_main.xlsx is placed in the project root (this file is excluded from the repo).
+
+3. **Run the app:**
+  Start the dashboard locally with:
+  ```bash
+  pip install -r requirements.txt
+  ```
+Then navigate to http://127.0.0.1:8050 in your browser.
