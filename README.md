@@ -10,24 +10,6 @@ This is a Dash-based interactive dashboard that visualizes predicate networks of
 - Search and highlight specific submission numbers
 - View device details in a side panel with links to summaries (if available)
 
-## Requirements
-
-Install dependencies from the requirements file:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. Make sure your Excel data file is named `predicate_data_main.xlsx` and is placed in the root of the project.
-2. Run the app:
-
-```bash
-python app.py
-```
-
-3. Navigate to `http://127.0.0.1:8050` in your browser.
 
 ## File Structure
 
