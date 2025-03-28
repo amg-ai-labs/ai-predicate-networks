@@ -20,7 +20,7 @@ for sheet_name, df in all_sheets.items():
     # Ensure all expected columns exist and are filled
     for col in ['FDA', 'Creep', 'Predicate_Location', 'Device_Name', 'Device_Summary',
                 'Short_Description', 'Secondary_Specialty', 'Classification',
-                'Predicate', 'Company', 'Lead_Specialty']:
+                'Predicate', 'Company', 'Lead_Specialty', 'FDA_Pathway']:
         if col not in df.columns:
             df[col] = ''
         df[col] = df[col].fillna('')

@@ -68,10 +68,10 @@ def build_figure(df, fda_filter='all', year_range=None, highlight_node=None):
 
     # Color and symbol maps
     predicate_location_color_map = {
-        'Specialty AI device': '#B0B0B0',
-        'Other AI device': 'bisque',
-        'Non AI device': 'firebrick',
-        'No predicate': '#003366'
+        'Specialty AI device': '#909090',
+        'Other AI device': '#7899B2',
+        'Non AI device': '#D96459',
+        'No predicate': '#78A085'
     }
     fda_symbol_map = {
         '510(k)': 'circle',
@@ -177,16 +177,16 @@ def build_figure(df, fda_filter='all', year_range=None, highlight_node=None):
                    legendgroup='FDA'),
         # Predicate types
         go.Scatter(x=[None], y=[None], mode='markers', name='Specialty AI device',
-                   marker=dict(symbol='circle', color='#B0B0B0', size=7), showlegend=True,
+                   marker=dict(symbol='circle', color='#909090', size=7), showlegend=True,
                    legendgroup='Location', legendgrouptitle=dict(text='Predicate Type')),
         go.Scatter(x=[None], y=[None], mode='markers', name='Other AI device',
-                   marker=dict(symbol='circle', color='bisque', size=7), showlegend=True,
+                   marker=dict(symbol='circle', color='#7899B2', size=7), showlegend=True,
                    legendgroup='Location'),
         go.Scatter(x=[None], y=[None], mode='markers', name='Non AI device',
-                   marker=dict(symbol='circle', color='firebrick', size=7), showlegend=True,
+                   marker=dict(symbol='circle', color='#D96459', size=7), showlegend=True,
                    legendgroup='Location'),
         go.Scatter(x=[None], y=[None], mode='markers', name='No predicate',
-                   marker=dict(symbol='circle', color='#003366', size=7), showlegend=True,
+                   marker=dict(symbol='circle', color='#78A085', size=7), showlegend=True,
                    legendgroup='Location')
     ]
 
